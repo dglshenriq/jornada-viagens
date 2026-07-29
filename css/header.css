@@ -5,6 +5,7 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   padding: 38px 48px;
+  position: relative;
 }
 
 /* .logo {
@@ -13,12 +14,28 @@ header {
   height: 64px;
   margin: 37px 0 0 48px;
 } */
-.navigation-menu{
-    margin-top: 24px;
+.navigation-menu {
+  margin-top: 24px;
 }
-input[type="checkbox"]:checked ~ nav{
-    display: block;
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 100%;
+  background-color: var(--background-tertiary-color);
 }
 nav {
-    display: none;
+  display: none;
+}
+.links-list li a {
+  color: var(--text-secondary-color);
+  text-decoration: none;
+}
+.links-list {
+  list-style: none;
+}
+
+.links-list li {
+  color: var(--text-secondary-color);
 }
