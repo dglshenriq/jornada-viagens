@@ -1,0 +1,8 @@
+.hero-img {
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/hero-mobile.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
