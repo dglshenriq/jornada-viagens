@@ -11,6 +11,8 @@
 .card header {
   display: block;
   position: static;
+  padding: 0;
+  margin-bottom: 24px;
 }
 
 .card header p {
