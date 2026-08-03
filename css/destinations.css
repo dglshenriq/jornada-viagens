@@ -14,14 +14,6 @@
   align-items: center;
 }
 
-.destinations-items .item header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
-  margin-bottom: 24px;
-}
-
 .destinations-items .item p {
   font-size: 20px;
   font-weight: var(--text-weight);
@@ -33,8 +25,8 @@
   font-size: 28px;
 }
 
-.destinations-items .button {
-  text-align: center;
+.destinations .button {
+  width: 100%;
 }
 
 .img-items.tokyo {
@@ -52,6 +44,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .destinations .button {
+    width: 280px;
+  }
   .destinations-items .item {
     color: var(--text-primary-color);
     width: 648px;
@@ -73,7 +68,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .destinations-items{
+  .destinations-items {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -103,7 +98,7 @@
 @media screen and (min-width: 1440px) {
   .destinations-items .item {
     color: var(--text-primary-color);
-    width: 648px;
+    width: 588px;
     height: 750px;
   }
   .img-items.tokyo {
