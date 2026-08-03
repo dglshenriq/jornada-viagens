@@ -12,11 +12,9 @@
   box-sizing: border-box;
   display: inline-block;
   align-items: center;
-  margin-bottom: 40px;
 }
 
 .destinations-items .item p {
-  text-align: left;
   margin-bottom: 24px;
 }
 
@@ -36,6 +34,7 @@
 .img-items {
   width: 100%;
   height: 360px;
+  margin-bottom: 24px;
 }
 
 @media screen and (min-width: 768px) {
