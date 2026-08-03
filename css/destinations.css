@@ -1,0 +1,117 @@
+.destinations-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.destinations-items .item {
+  color: var(--text-primary-color);
+  width: 312px;
+  height: 757px;
+  box-sizing: border-box;
+  display: inline-block;
+  align-items: center;
+}
+
+.destinations-items .item p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.destinations-items .item h4 {
+  font-size: 28px;
+}
+
+.destinations .button {
+  width: 100%;
+}
+
+.img-items.tokyo {
+  background: url(../img/tokyo-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+.img-items.osaka {
+  background: url(../img/osaka-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.img-items {
+  width: 100%;
+  height: 360px;
+}
+
+@media screen and (min-width: 768px) {
+  .destinations .button {
+    width: 280px;
+  }
+  .destinations-items .item {
+    color: var(--text-primary-color);
+    width: 648px;
+    height: 718px;
+  }
+  .img-items.tokyo {
+    background: url(../img/tokyo-tablet-destop.jpg) no-repeat;
+    background-size: cover;
+  }
+  .img-items.osaka {
+    background: url(../img/osaka-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .img-items {
+    width: 100%;
+    height: 452px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .destinations-items {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .destinations-items .item {
+    color: var(--text-primary-color);
+    width: 430px;
+    height: 750px;
+  }
+
+  .img-items.tokyo {
+    background: url(../img/tokyo-tablet-destop.jpg) no-repeat;
+    background-size: cover;
+  }
+  .img-items.osaka {
+    background: url(../img/osaka-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .img-items {
+    width: 100%;
+    height: 360px;
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .destinations-items .item {
+    color: var(--text-primary-color);
+    width: 588px;
+    height: 750px;
+  }
+  .img-items.tokyo {
+    background: url(../img/tokyo-tablet-destop.jpg) no-repeat;
+    background-size: cover;
+  }
+  .img-items.osaka {
+    background: url(../img/osaka-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .img-items {
+    width: 100%;
+    height: 360px;
+  }
+}
