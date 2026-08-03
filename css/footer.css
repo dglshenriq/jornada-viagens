@@ -1,0 +1,41 @@
+.footer-img {
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/hero-footer-mobile.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-img {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/hero-footer-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-img {
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/hero-footer-tablet.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-img {
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/hero-footer-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
