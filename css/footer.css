@@ -1,0 +1,84 @@
+.footer-img {
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/hero-footer-mobile.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer-content {
+  height: 348px;
+  background-color: var(--background-tertiary-color);
+  color: var(--text-secondary-color);
+  padding: 48px 24px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 162px;
+  height: 40px;
+  background-image: url("../img/logo-rodapé-branco.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer-socials {
+  display: block;
+  margin: 20px;
+  gap: 16px;
+  font-size: 16px;
+}
+
+.socials-img {
+  display: block;
+  margin-top: 20px;
+}
+
+.dev-link {
+  color: var(--text-secondary-color);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-img {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/hero-footer-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .footer-content {
+    height: 300px;
+    padding: 60px 32px;
+    gap: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-img {
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/hero-footer-tablet.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-img {
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/hero-footer-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
