@@ -1,0 +1,26 @@
+.package-container {
+  padding: 40px 24px;
+  gap: 16px;
+}
+
+.hero h1 {
+  max-width: 320px;
+  color: var(--text-secondary-color);
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+.hero-divider {
+  display: block;
+  width: 180px;
+  height: 4px;
+  background: var(--secondary-color);
+  margin: 16px 0 24px;
+}
+
+.hero p {
+  max-width: 420px;
+  color: var(--text-secondary-color);
+  font-size: 1.4rem;
+  line-height: 1.7;
+}

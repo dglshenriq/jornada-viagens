@@ -17,6 +17,10 @@
   background: url("../img/hero-footer-mobile.jpg") no-repeat;
   background-size: cover;
 }
+.packages .hero-img{
+  background: url("../img/hero-pacotes.png") no-repeat;
+  background-size: cover;
+}
 .hero .hero-h2 {
   padding: 88px 24px;
   margin: 0px;
@@ -41,6 +45,11 @@
   }
   .bottom-hero .hero-img {
     background: url("../img/hero-footer-tablet.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .hero-img-destino {
+    background: url("../img/hero-mobile.jpg") no-repeat;
     background-size: cover;
   }
 }
