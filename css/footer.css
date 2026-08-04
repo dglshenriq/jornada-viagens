@@ -1,43 +1,31 @@
-.footer-img {
+.main-footer {
   width: 100%;
-  height: 400px;
-  background-image: url("../img/hero-footer-mobile.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.footer-content {
-  height: 348px;
   background-color: var(--background-tertiary-color);
-  color: var(--text-secondary-color);
-  padding: 48px 24px;
-  gap: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 32px 24px;
+  box-sizing: border-box;
+}
+
+.main-footer .footer-content {
   text-align: center;
 }
 
-.footer-logo {
-  width: 162px;
-  height: 40px;
-  background-image: url("../img/logo-rodapé-branco.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.main-footer .footer-content img {
+  margin-bottom: 16px;
 }
 
-.footer-socials {
-  display: block;
-  margin: 20px;
-  gap: 16px;
+.main-footer p {
+  color: var(--text-secondary-color);
   font-size: 16px;
+  line-height: 28px;
+  font-weight: var(--text-weight);
+  margin-bottom: 8px;
 }
 
-.socials-img {
-  display: block;
-  margin-top: 20px;
+.main-footer .footer-social {
+  text-align: center;
 }
 
 .dev-link {
@@ -46,39 +34,44 @@
 }
 
 @media screen and (min-width: 768px) {
-  .footer-img {
-    width: 100%;
-    height: 400px;
-    background-image: url("../img/hero-footer-mobile.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  .main-footer {
+    padding: 32px 60px;
   }
-  .footer-content {
-    height: 300px;
-    padding: 60px 32px;
-    gap: 16px;
+
+  .main-footer p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .main-footer .footer-social {
+    margin-top: 32px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .footer-img {
-    width: 100%;
-    height: 500px;
-    background-image: url("../img/hero-footer-tablet.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    .main-footer {
+    flex-direction: row;
+    padding: 52px 120px;
+    justify-content: space-between;
+  }
+
+  .main-footer .footer-content {
+    text-align: left;
+  }
+
+  .main-footer .footer-social {
+    width: 165px;
+  }
+
+  .main-footer .footer-social p {
+    font-size: 16px;
+  }
+
+  .dev-link:hover {
+    color: var(--primary-color)
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .footer-img {
-    width: 100%;
-    height: 600px;
-    background-image: url("../img/hero-footer-desktop.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+  
 }
