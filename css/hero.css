@@ -17,8 +17,16 @@
   background: url("../img/hero-footer-mobile.jpg") no-repeat;
   background-size: cover;
 }
-.packages .hero-img{
-  background: url("../img/hero-pacotes.png") no-repeat;
+
+/* Página Pacotes */
+
+.packages.hero .hero-img {
+  background: url("../img/hero-pacotes-mobile.png") no-repeat;
+  background-size: cover;
+}
+
+.packages.bottom-hero .hero-img {
+  background: url("../img/footer-pacotes-mobile.png") no-repeat;
   background-size: cover;
 }
 .hero .hero-h2 {
