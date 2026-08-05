@@ -30,35 +30,29 @@
 
 @media screen and (min-width: 768px) {
   .payments .content-container .image-gallery .image.bag {
-    background: url(../img/gallery1-tablet.jpg) no-repeat;
-    background-size: cover;
+    background-image: url(../img/gallery1-tablet.jpg);
   }
 
   .payments .content-container .image-gallery .image.passport {
-    background: url(../img/gallery2-tablet.jpg) no-repeat;
-    background-size: cover;
+    background-image: url(../img/gallery2-tablet.jpg);
   }
 
   .payments .content-container .image-gallery .image.people {
-    background: url(../img/gallery3-tablet.jpg) no-repeat;
-    background-size: cover;
+    background-image: url(../img/gallery3-tablet.jpg);
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .payments .content-container .image-gallery .image.bag {
-    background: url(../img/gallery1-tablet.jpg) no-repeat;
-    background-size: cover;
+  .payments .image.bag {
+    background: url(../img/gallery1-tablet.jpg);
   }
 
-  .payments .content-container .image-gallery .image.passport {
-    background: url(../img/gallery2-tablet.jpg) no-repeat;
-    background-size: cover;
+  .payments .image.passport {
+    background: url(../img/gallery2-tablet.jpg);
   }
 
-  .payments .content-container .image-gallery .image.people {
-    background: url(../img/gallery3-tablet.jpg) no-repeat;
-    background-size: cover;
+  .payments .image.people {
+    background: url(../img/gallery3-tablet.jpg);
   }
 }
 @media screen and (min-width: 1440px) {
@@ -73,18 +67,15 @@
     width: 790px;
     margin: 0;
   }
-  .payments .content-container .image-gallery .image.bag {
-    background: url(../img/gallery1-desktop.jpg) no-repeat;
-    background-size: cover;
+  .payments .image.bag {
+    background: url(../img/gallery1-desktop.jpg);
   }
 
-  .payments .content-container .image-gallery .image.passport {
-    background: url(../img/gallery2-desktop.jpg) no-repeat;
-    background-size: cover;
+  .payments .image.passport {
+    background: url(../img/gallery2-desktop.jpg);
   }
 
-  .payments .content-container .image-gallery .image.people {
-    background: url(../img/gallery3-desktop.jpg) no-repeat;
-    background-size: cover;
+  .payments .image.people {
+    background: url(../img/gallery3-desktop.jpg);
   }
 }
