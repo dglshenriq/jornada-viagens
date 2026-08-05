@@ -21,6 +21,11 @@
 .hero p {
   max-width: 420px;
   color: var(--text-secondary-color);
-  font-size: 1.4rem;
-  line-height: 1.7;
+}
+
+.payments span {
+    display: block;
+  font-size: 40px;
+  font-weight: var(--title-weight);
+  margin: 0 0 24px;
 }
