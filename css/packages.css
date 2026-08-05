@@ -1,0 +1,87 @@
+.package-container {
+  padding: 40px 24px;
+  gap: 16px;
+}
+
+.packages.hero {
+  margin-bottom: 88px;
+}
+
+.hero h1 {
+  width: 100%;
+  color: var(--text-secondary-color);
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+.hero-divider {
+  display: block;
+  width: 180px;
+  height: 4px;
+  background: var(--secondary-color);
+  margin: 16px 0 24px;
+}
+
+.hero p {
+  max-width: 100%;
+  color: var(--text-secondary-color);
+}
+
+.payments span {
+  display: block;
+  font-size: 40px;
+  font-weight: var(--title-weight);
+  margin: 0 0 24px;
+}
+
+.payments.packages .image.castelo {
+  background-image: url(../img/castelo-mobile.png);
+}
+
+.payments.packages .image.cidade {
+  background-image: url(../img/cidade-mobile.png);
+}
+
+.payments.packages .image.gueixa {
+  background-image: url(../img/gueixa-mobile.png);
+}
+
+@media screen and (min-width: 768px) {
+  .package-container {
+    width: 580px;
+    padding: 88px 44px;
+  }
+
+  .hero p {
+    font-size: 32px;
+    line-height: 1.5;
+  }
+  .payments.packages .image.castelo {
+    background-image: url(../img/castelo-tablet.png);
+  }
+
+  .payments.packages .image.cidade {
+    background-image: url(../img/cidade-tablet.png);
+  }
+
+  .payments.packages .image.gueixa {
+    background-image: url(../img/gueixa-tablet.png);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+    .package-container {
+    padding: 100px 60px;
+  }
+  .payments.packages .image.castelo {
+    background-image: url(../img/castelo-desktop.png);
+  }
+
+  .payments.packages .image.cidade {
+    background-image: url(../img/cidade-desktop.png);
+  }
+
+  .payments.packages .image.gueixa {
+    background-image: url(../img/gueixa-desktop.png);
+  }
+}
