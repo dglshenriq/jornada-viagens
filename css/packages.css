@@ -24,8 +24,20 @@
 }
 
 .payments span {
-    display: block;
+  display: block;
   font-size: 40px;
   font-weight: var(--title-weight);
   margin: 0 0 24px;
+}
+
+.payments.packages .image.castelo {
+  background-image: url(../img/castelo-mobile.png);
+}
+
+.payments.packages .image.cidade {
+  background-image: url(../img/cidade-mobile.png);
+}
+
+.payments.packages .image.gueixa {
+  background-image: url(../img/gueixa-mobile.png);
 }
